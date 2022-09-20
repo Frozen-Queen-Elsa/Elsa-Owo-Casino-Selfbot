@@ -1,0 +1,14 @@
+{
+    "token": "nothing",
+    "channel": "nothing",
+    "solve": {"enable": "YES", "server": "1"},
+    "cfm": "yes",
+    "cfbet": "1",
+    "cfrate": "4",
+    "osm": "yes",
+    "osbet": "1",
+    "osrate": "3",
+    "maxbet": "reset",
+    "webhook": "none",
+    "webhookping": "none"
+  }
