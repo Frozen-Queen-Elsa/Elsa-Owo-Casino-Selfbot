@@ -15,18 +15,17 @@ from menu import UI
 from color import color
 from data import data
 from api import CAPI
-
+import discum
 
 try:
     from inputimeout import inputimeout, TimeoutOccurred
-    from discum import *
 
     from discord_webhook import DiscordWebhook
 except:
 	from setup import install
 	install()
-	import discum
-	from discum import *
+    from discord_webhook import DiscordWebhook
+
  
 init()
 ui = UI()
